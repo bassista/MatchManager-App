@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeMenuItem"
+          android:title="Home"
+          android:showAsAction="always"/>
+
+    <item android:id="@+id/createNewMatch"
+          android:title="Create New Match"
+          android:showAsAction="always"/>
+
+    <item android:id="@+id/getAvaiavleMatchMenuItem"
+          android:title="Get Avaiable Match"
+          android:showAsAction="always"/>
+
+    <item android:id="@+id/logOutMenuItem"
+          android:title="Log-Out"
+          android:showAsAction="always"/>
+
+</menu>

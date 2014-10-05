@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MatchManager</string>
+
+    <string name="log_in_form_username">User Name</string>
+    <string name="log_in_form_password">Password</string>
+    <string name="log_in_form_button_label">Log-In</string>
+
+    <string name="preference_server_ip">Server IP</string>
+    <string name="preference_server_port">Server port</string>
+    <string name="preference_save_button_label">Save</string>
+    <string name="log_in_form_set_preference">Set the preference</string>
+    <string name="hour_label">Hour</string>
+    <string name="data_label">Date</string>
+    <string name="team_name_label">Team Name</string>
+    <string name="football_field_label">Foot Ball Field</string>
+    <string name="submit_label">Submit</string>
+</resources>

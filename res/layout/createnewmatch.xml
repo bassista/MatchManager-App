@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/createnewmatchlinearlayout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:id="@+id/createnewmatch_hour_label"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+            android:text="@string/hour_label"/>
+    <TextView android:id="@+id/createnewmatch_hour"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/createnewmatch_footballfields_label"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/football_field_label"/>
+    <Spinner android:id="@+id/createnewmatch_footballfields"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="#ff8dc3ff"/>
+
+    <TextView android:id="@+id/createnewmatch_teamname_label"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/team_name_label"/>
+    <Spinner android:id="@+id/createnewmatch_teamname"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="#ff8dc3ff"/>
+
+    <Button android:id="@+id/createnewmatch_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_label"/>
+</LinearLayout>

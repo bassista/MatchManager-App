@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+       
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               android:orientation="vertical"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Data"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="5px"
+          android:background="@android:color/darker_gray" />
+    <DatePicker android:id="@+id/datePicker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false" />
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Hour"/>
+    <Spinner android:id="@+id/hourSpinner"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="#ff8dc3ff"/>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="5px"
+          android:background="@android:color/darker_gray" />
+
+    <Button android:id="@+id/submitShearchAvaiableMatch"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
