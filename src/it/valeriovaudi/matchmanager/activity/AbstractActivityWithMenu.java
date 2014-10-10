@@ -31,6 +31,7 @@ public abstract class AbstractActivityWithMenu extends AbstractActivity {
                 intent.putExtra("operation", SupportedOperation.JOIN_IN_MATH);
                 startActivity(intent);
                 return true;
+
             case R.id.createNewMatch:
                 intent = new Intent(this, ShearchMatchActivity.class);
                 intent.putExtra("operation", SupportedOperation.CREATE_MATCH);
