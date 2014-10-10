@@ -70,7 +70,7 @@ public abstract class AbstractService extends AsyncTask<String, String, String>{
         formatParamiters[1] = port;
 
         for (int i = 2 ; i < formatParamiters.length ; i++){
-            formatParamiters[i]= URLEncoder.encode(paramiters[i-2],"ISO-8859-1");
+            formatParamiters[i]= paramiters[i-2].contains(" ") ? URLEncoder.encode(paramiters[i-2],"ISO-8859-1") : paramiters[i-2];
         }
         url = String.format(urlFormat,formatParamiters);
         return url;

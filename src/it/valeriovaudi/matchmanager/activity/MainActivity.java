@@ -55,20 +55,17 @@ public class MainActivity extends AbstractActivityWithMenu {
                 linearLayout.addView(textView);
                 if (prenotable) {
                     button = new Button(this);
-                    button.setText("Prenota");
+                    button.setText("Reserve");
                     button.setOnClickListener(new JoinInMatchButtonListener(this, sharedPreferences, userName, jsonObject.getString("hour"), jsonObject.getString("footballField"), jsonObject.getString("date")));
                     linearLayout.addView(button);
                 }
-
             }
         } catch (JSONException e) {
             exceptionMessageSupport.printExceptionErrorMessage(e, logger);
         }
-
     }
 
     private View createGenericView() {
-
         View view = new View(this);
         LinearLayout.LayoutParams viewLp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5);
 
